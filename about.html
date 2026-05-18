@@ -1,51 +1,132 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About - AirGuard</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-    <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
+  <body>
     <header class="header">
-        <div class="container nav">
-            <h2 class="logo">Airguard</h2>
+      <nav class="nav container">
+        <a href="index.html" class="nav-logo">
+          <img src="images/logo.jpg" alt="AirGuard logo" />
+        </a>
 
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <a href="contact.html" class="btn btn-primary">Get Started</a>
+      </nav>
     </header>
 
     <main>
-        <section class="hero">
-            <div class="container hero-inner">
-<div class="hero-text">
-                <h1>Clean Air Solution</h1>
+      <section class="section about-section">
+        <div class="container about-grid">
+          <div>
+            <p class="section-label">About AirGuard</p>
 
-                <p>AirGuard helps improve indoor air quality<br />
-                through smart monitoring and protection systems.<br />
+            <h1>Clean Air, Clear Decisions</h1>
+
+            <p>
+              AirGuard is a smart air quality monitoring service designed to
+              help schools, workplaces and building managers understand indoor
+              air quality in a simple and clear way.
+            </p>
+
+            <p>
+              The system combines a physical monitoring device with a digital
+              interface that presents air quality data, alerts and reports so
+              users can take action when needed.
             </p>
 
             <div class="hero-actions">
-                <a href="services.html" class="btn btn-primary">
-                    Explore Services
-                </a>
+              <a href="services.html" class="btn btn-primary"
+                >Explore Services</a
+              >
+              <a href="contact.html" class="btn btn-outline">Request Demo</a>
+            </div>
+          </div>
+
+          <div class="about-visual">
+            <div class="about-stat">
+              <span class="about-stat-value">24/7</span>
+              <p class="about-stat-label">Indoor air monitoring</p>
             </div>
 
+            <div class="divider"></div>
+
+            <div class="about-stat">
+              <span class="about-stat-value">3</span>
+              <p class="about-stat-label">
+                Key areas: CO2, humidity and ventilation
+              </p>
             </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="container footer-inner">
-            <p>© 2026 AirGuard. All rights reserved.</p>
+
+            <div class="divider"></div>
+
+            <div class="about-stat">
+              <span class="about-stat-value">Simple</span>
+              <p class="about-stat-label">
+                Clear information for non-expert users
+              </p>
+            </div>
+          </div>
         </div>
+      </section>
+
+      <section class="section">
+        <div class="container text-center">
+          <p class="section-label">Who It Is For</p>
+          <h2>Designed for People Responsible for Indoor Environments</h2>
+          <p class="section-subtitle">
+            AirGuard supports users who need quick, understandable information
+            to make decisions about air quality.
+          </p>
+
+          <div class="who-grid">
+            <article class="who-card">
+              <h3>Facility Managers</h3>
+              <p>
+                Monitor air quality across buildings and respond when conditions
+                change.
+              </p>
+            </article>
+
+            <article class="who-card">
+              <h3>School Administrators</h3>
+              <p>
+                Support healthier learning environments with clear air quality
+                insights.
+              </p>
+            </article>
+
+            <article class="who-card">
+              <h3>Office Managers</h3>
+              <p>Help improve comfort and focus in shared workspaces.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© 2026 AirGuard. All rights reserved.</p>
+
+        <nav class="footer-links">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Support</a>
+        </nav>
+      </div>
     </footer>
-    <script scr="js/main.js"></script>
-</body>
+
+    <script src="js/main.js"></script>
+  </body>
 </html>
