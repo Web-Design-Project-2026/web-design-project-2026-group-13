@@ -284,6 +284,18 @@ overflow: hidden;
     grid-template-columns: repeat(3, 1fr);
     gap: 28px;
 }
+.issue-card {
+    background: var(--bg-card);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    transition: var(--transition);
+}
+.issue-img {
+    height: 200px;
+    overflow: hidden;
+}
+
 
 .issue-img img{
     width: 100%;
@@ -703,7 +715,7 @@ overflow: hidden;
 }
 
 .issue-img {
-    aspect-ratio: 4/3;
+    height: 200px;
     overflow: hidden;
 }
 
