@@ -936,7 +936,7 @@ main {
 }
 
 .form-group label {
-  color: #7FE7FF;
+  color: #7fe7ff;
   font-weight: 600;
   font-size: 0.85rem;
 }
@@ -951,7 +951,6 @@ main {
   background: rgba(255, 255, 255, 0.06);
   color: white;
   font: inherit;
-}
 }
 
 .form-group textarea {
