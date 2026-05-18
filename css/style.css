@@ -285,10 +285,6 @@ overflow: hidden;
     gap: 28px;
 }
 
-.issue-card {
-    overflow: hidden;
-}
-
 .issue-img{
     aspect-ratio: 4 / 3;
     overflow: hidden;
