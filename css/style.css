@@ -56,6 +56,9 @@ html{
 
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color: var(--bg);
+    background-image: var(--gradient-background);
+    
     background-attachment: fixed;
     color: var(--mint);
     line-height: 1.6;
