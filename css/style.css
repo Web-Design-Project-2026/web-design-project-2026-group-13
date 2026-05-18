@@ -58,7 +58,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-color: var(--bg);
     background-image: var(--gradient-background);
-    
+
     background-attachment: fixed;
     color: var(--mint);
     line-height: 1.6;
@@ -118,7 +118,6 @@ h1 {
 h2{
     font-size: clamp(1.8rem, 4vw, 2.8rem);
     line-height:1.2;
-    font-weight:1.2;
     font-weight:700;
 }
 
