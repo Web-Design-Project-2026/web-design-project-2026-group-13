@@ -266,26 +266,6 @@ position: relative;
 overflow: hidden;
 }
 
-.hero-inner{
-    display: block;
-
-    font-size: clamp(2.8rem, 6vw, 4.2rem);
-    font-weight: 900;
-    color: var(--mint);
-
-}
-
-.hero-sub {
-    display: block;
-    margin-top: 10px;
-    font-size: clamp(1.3rem, 3vw, 2rem);
-}
-
-.hero-text p{
-    max-width: 430px;
-    margin: 24px 0 40px;
-}
-
 .hero-actions{
     display: flex;
     gap: 14px;
