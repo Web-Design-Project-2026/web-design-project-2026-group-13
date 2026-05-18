@@ -1,15 +1,181 @@
-<!doctype html>
+Contact.html
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Air Guard</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contact - AirGuard</title>
+
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <h1>Contact</h1>
-    <p>Contact/Demo: Who the service is for and how to get in touch. User interaction.</p>
+
+  <!-- Header -->
+  <header class="header">
+    <nav class="nav container">
+
+      <a href="index.html" class="nav-logo">
+        <img src="images/logo.jpg" alt="AirGuard logo">
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+
+      <a href="contact.html" class="btn btn-primary">
+        Get started
+      </a>
+
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Contact intro -->
+    <section class="contact-hero">
+      <div class="container">
+        <p class="section-label">Contact us</p>
+
+        <h1>Request a Free Demo</h1>
+
+        <p>
+          Fill in the form and we will contact you to book a demo.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="section">
+      <div class="container contact-layout">
+
+        <!-- Contact information -->
+        <aside class="contact-info">
+          <h2>What happens next?</h2>
+
+          <p>
+            We will contact you and show how AirGuard works.
+            You can also ask questions about the product.
+          </p>
+
+          <div class="contact-perks">
+
+            <div class="perk">
+              <h3>Quick response</h3>
+              <p>We try to reply within one business day.</p>
+            </div>
+
+            <div class="perk">
+              <h3>Live demo</h3>
+              <p>You can see the device, app, and dashboard.</p>
+            </div>
+
+            <div class="perk">
+              <h3>Ask questions</h3>
+              <p>You can ask anything about AirGuard.</p>
+            </div>
+
+          </div>
+        </aside>
+
+        <!-- Contact form -->
+        <section class="contact-form-card">
+
+          <form id="contact-form">
+
+            <div class="form-row">
+
+              <div class="form-group">
+                <label for="name">Full name *</label>
+                <input type="text" id="name" name="name" placeholder="Jane Smith" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email address *</label>
+                <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+              </div>
+
+            </div>
+
+            <div class="form-row">
+
+              <div class="form-group">
+                <label for="company">Company or organisation</label>
+                <input type="text" id="company" name="company" placeholder="Company name">
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Phone number</label>
+                <input type="tel" id="phone" name="phone" placeholder="+46 70 000 000">
+              </div>
+
+            </div>
+
+            <div class="form-group">
+              <label for="space-type">What type of space do you have?</label>
+
+              <select id="space-type" name="space-type">
+                <option value="">Choose one option</option>
+                <option value="home">Home or apartment</option>
+                <option value="office">Office or workplace</option>
+                <option value="school">School or university</option>
+                <option value="hotel">Hotel or hospitality</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message *</label>
+
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Tell us what you need help with..."
+                required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary form-submit">
+              Request demo
+            </button>
+
+          </form>
+
+        </section>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+
+      <div class="footer-brand">
+        <a href="index.html">
+          <img src="images/logo.jpg" alt="AirGuard logo">
+        </a>
+
+        <p>Breathe better. Live smarter.</p>
+      </div>
+
+      <p>© 2026 AirGuard. All rights reserved.</p>
+
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Support</a>
+      </nav>
+
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+
 </body>
-<footer>
-    <p>&copy; 2026 AirGuard. All rights reserved.</p>
-</footer>
 </html>
