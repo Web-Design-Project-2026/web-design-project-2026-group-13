@@ -465,6 +465,21 @@ main {
   width: 100%;
 }
 
+/* Success message - feedback*/
+.hidden {
+  display: none !important;   
+}
+
+.success-box {
+  text-align: center;
+  padding: 44px 40px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-sm);
+  color: white !important;
+
+}
+
 /* CTA */
 .cta-actions {
   display: flex;
