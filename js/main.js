@@ -46,11 +46,9 @@ document.addEventListener("DOMContentLoaded", () => {
     // Replace this fetch with your real endpoint when available.
     console.log("Contact form submitted:", payload);
 
-    showStatus(
-      "Thanks — your request has been sent. We will contact you soon.",
-    );
-    const submitBtn = form.querySelector('button[type="submit"]');
-    if (submitBtn) submitBtn.disabled = true;
-    form.reset();
+   form.classList.add("hidden");
+const successBox = document.getElementById("success-message");
+if (successBox) successBox.classList.remove("hidden");
+
   });
 });
