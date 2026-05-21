@@ -503,8 +503,14 @@ main {
   gap: 20px;
 }
 
-.footer-logo img {
-  height: 44px;
+/* Footer logo ABOUT & CONTACT */
+.footer-logo {
+  max-width: 180px;
+  height: auto;
+  display: block;
+
+margin-left: -40px;
+
 }
 .footer-links {
   display: flex;
@@ -846,6 +852,7 @@ main {
   flex-wrap: wrap;
   gap: 20px;
 }
+
 
 /* Responsive */
 @media (max-width: 900px) {
