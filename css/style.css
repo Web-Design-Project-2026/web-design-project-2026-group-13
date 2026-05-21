@@ -216,8 +216,8 @@ p {
   max-width: 200px;
   height: auto;
   display: block;
+
   margin-left: -50px;
- 
 }
 
 .nav-links {
@@ -422,7 +422,7 @@ main {
   background: rgba(43, 163, 206, 0.12);
 }
 
-/* contact*/
+/* contact */
 .contact-layout {
   display: grid;
   grid-template-columns: 1fr 1.5fr;
@@ -465,7 +465,7 @@ main {
   width: 100%;
 }
 
-/* CTA*/
+/* CTA */
 .cta-actions {
   display: flex;
   justify-content: center;
@@ -484,7 +484,7 @@ main {
   border: 1px solid rgba(43, 163, 206, 0.2);
 }
 
-/* Footer*/
+/* Footer */
 .footer {
   background: var(--bg-nav);
 
