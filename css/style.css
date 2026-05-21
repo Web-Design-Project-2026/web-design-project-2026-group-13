@@ -95,7 +95,7 @@ button {
 }
 
 .section {
-  padding: var(--section-pad) 0;
+  padding: 50px 0;
 }
 
 .text-center {
@@ -264,7 +264,7 @@ main {
   display: flex;
   align-items: center;
 
-  padding: 80px 0 100px;
+padding: 15px 0 30px;
 
   position: relative;
   overflow: hidden;
@@ -274,6 +274,8 @@ main {
   display: flex;
   gap: 14px;
   flex-wrap: wrap;
+  margin-top: 28px;
+
 }
 
 .hero-image img {
@@ -488,16 +490,43 @@ main {
 
   flex-wrap: wrap;
 }
+.cta-section {
+    padding: 100px 0;
+}
 
 .cta-box {
-  padding: 72px 48px;
-
-  border-radius: var(--radius-xl);
-
-  background: rgba(43, 163, 206, 0.08);
-
-  border: 1px solid rgba(43, 163, 206, 0.2);
+    padding: 72px 48px;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    border-radius: var(--radius-xl);
+    background: rgba(43, 163, 206, 0.08);
+    border: 1px solid rgba(43, 163, 206, 0.2);
 }
+.cta-box h2 {
+    margin-bottom: 16px;
+}
+.cta-box h2,
+.cta-box p {
+    text-align: center;
+}
+
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-top: 8px;
+}
+
+.cta-box p {
+    margin-bottom: 32px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /* Footer */
 .footer {
@@ -605,7 +634,7 @@ margin-left: -40px;
   gap: 60px;
   align-items: center;
   min-height: calc(100vh - var(--header-h));
-  padding: 80px 0;
+  padding: 20px 0;
 }
 
 .teal {
@@ -624,7 +653,7 @@ margin-left: -40px;
   display: flex;
   gap: 14px;
   flex-wrap: wrap;
-  margin-bottom: 40px;
+  margin-bottom: 28px;
 }
 
 .hero-stats {
@@ -831,18 +860,40 @@ margin-left: -40px;
 }
 
 /* App section */
-.app-inner {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 64px;
-  align-items: center;
+.app-inner,
+.app-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+    align-items: center;
 }
+
 
 .app-text h2 {
   margin-bottom: 16px;
 }
 .app-text p {
   margin-bottom: 28px;
+}
+.app-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 28px;
+    padding-left: 0;
+}
+
+.app-list li {
+    color: var(--text-muted);
+    padding-left: 20px;
+    position: relative;
+}
+
+.app-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--teal);
 }
 
 .app-image img {
@@ -897,7 +948,7 @@ margin-left: -40px;
 
 /* Contact page spacing fixes */
 .contact-hero {
-  padding: 150px 0 70px;
+  padding: 80px 0 50px;
 }
 
 .contact-hero h1 {
