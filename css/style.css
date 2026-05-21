@@ -205,14 +205,19 @@ p {
 
 .nav {
   height: 100%;
-
+  
   display: flex;
   align-items: center;
-  gap: 36px;
+  gap: 32px;
 }
 
+/* Logo in nav*/
 .nav-logo img {
-  height: 52px;
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin-left: -50px;
+ 
 }
 
 .nav-links {
